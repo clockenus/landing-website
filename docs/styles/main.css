@@ -200,12 +200,15 @@ header {
 .teachers {
     display: flex;
     gap: 1em;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 
 .teachers .text-block {
     width: 50%;
 }
 .teachers .carousel {
+    padding-top: 1em;
     width: 50%;
     min-width: 350px;
     overflow: auto;
@@ -295,7 +298,11 @@ header {
         flex-direction: column;
     }
 
-    .teachers > * {
+    .teachers .text-block {
+        width: 100%;
+    }
+
+    .teachers .carousel {
         width: 100%;
     }
 }
@@ -319,7 +326,11 @@ header {
         flex-direction: column;
     }
 
-    .teachers > * {
+    .teachers .text-block {
+        width: 100%;
+    }
+
+    .teachers .carousel {
         width: 100%;
     }
 }
